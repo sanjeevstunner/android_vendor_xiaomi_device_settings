@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2020 The LineageOS Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,6 +28,7 @@
 
     <!-- Dirac settings -->
     <string name="dirac_title">Улучшение звука Dirac</string>
+    <string name="dirac_summary">Оптимизируйте качество звука с помощью Dirac, Hi-Fi</string>
     <string name="dirac_headset_title">Тип гарнитуры</string>
     <string name="dirac_hifi_enable_title"> Включить Hi-fi</string>
     <string name="dirac_preset_title">Настройки звука</string>
@@ -75,4 +79,63 @@
     <!-- Raise to wake strings-->
     <string name="raise_to_wake_gesture_title">Поднимите, чтобы разбудить</string>
     <string name="raise_to_wake_gesture_summary">Разбудить устройство вместо пульсирующего уведомления</string>
+    
+    <!-- Haptic Level Settings -->
+    <string name="haptic_title">Сила вибрациия</string>
+    <string name="haptic_summary">Настроить интенсивность вибрации</string>
+    <string name="haptic_level_title">Уровень силы вибрации</string>
+    <string name="haptic_level_summary">Отрегулируйте уровень общей силы вибрации</string>
+    <string name="haptic_level_summary_incompatible">Ваше ядро не поддерживает настраиваемый уровень силы вибрации</string>
+
+    <!-- Refresh Rate tile -->
+    <string name="refresh_rate_tile_title">Частота обновления</string>
+    
+    <!-- LCD Features -->
+    <string name="lcd_features_title">Особенности дисплея</string>
+    <string name="lcd_features_summary">Режим высокой яркости, CABC</string>
+    <string name="lcd_hbm_title">Режим высокой яркости (HBM)</string>
+    <string name="lcd_hbm_tile_title">HBM</string>
+    <string name="lcd_cabc_title">Режим CABC</string>
+    <string name="lcd_features_info">Режим высокой яркости (HBM) увеличивает максимальную яркость дисплея для улучшения видимости при солнечном свете. Увеличивает энергопотребление.\n\CABC (Управление адаптивной подсветкой контента) регулирует яркость дисплея и подсветки в зависимости от отображаемого в данный момент контента, чтобы снизить энергопотребление без ухудшения качества.</string>
+    <string name="kernel_not_supported">Ядро не поддерживает эту функцию</string>
+
+    <!-- KCAL -->
+    <string name="device_kcal_title">Калибровка дисплея</string>
+    <string name="device_kcal_summary">Калибровка цвета дисплея с использованием KCAL</string>
+    <string name="advanced_settings_kcal">Калибровка цвета дисплея</string>
+    <string name="cat_colormanagement">Настройки цвета</string>
+    <string name="cat_calibration">Калибровка дисплея</string>
+
+    <string name="kcal_enabled">Включено</string>
+    <string name="kcal_disabled">Отключено</string>
+    <string name="set_on_boot">Установить при загрузке</string>
+    <string name="color_red">Красный</string>
+    <string name="color_green">Зеленый</string>
+    <string name="color_blue">Синий</string>
+    <string name="color_minimum">Минимум</string>
+    <string name="saturation">Сатурация</string>
+    <string name="value">Значение</string>
+    <string name="contrast">Контраст</string>
+    <string name="hue">Оттенок</string>
+    <string name="grayscale">Дисплей в оттенках серого</string>
+
+    <string name="presets_dialog_title">Выберите предустановку</string>
+
+    <!-- Presets -->
+    <string name="preset_default">По умолчанию</string>
+    <string name="preset_version_1">Вариант 1</string>
+    <string name="preset_version_2">Вариант 2</string>
+    <string name="preset_version_3">Вариант 3</string>
+    <string name="preset_triluminous">Трехслойный</string>
+    <string name="preset_deep_black_white">Глубокий черно-белый</string>
+    <string name="preset_deep_natural">Глубокий натуральный</string>
+    <string name="preset_cool_amoled">Классный amoled</string>
+    <string name="preset_extreme_amoled">Экстремальный amoled</string>
+    <string name="preset_warm_amoled">Теплый amoled</string>
+    <string name="preset_hybrid_mamba">Гибридная мамба</string>
+    <string name="preset_burn_in">Горящий</string>
+
+    <!-- Menu -->
+    <string name="kcal_presets">@string/presets_dialog_title</string>
+    <string name="kcal_reset">Сбросить</string>
 </resources>
