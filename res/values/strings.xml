@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Ambient Display -->
+    <string name="ambient_enable">Use Ambient Display</string>
+
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal Profiles</string>
     <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
@@ -26,14 +29,26 @@
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_streaming">Streaming</string>
 
-    <!-- Dirac settings -->
+    <!-- Touch Control -->
+    <string name="touch_control_title">Touch Control</string>
+    <string name="touch_game_mode_title">Enable Touch Control</string>
+    <string name="touch_response_title">Responsivity</string>
+    <string name="touch_response_summary">Controls touch response</string>
+    <string name="touch_sensitivity_title">Sensitivity</string>
+    <string name="touch_sensitivity_summary">Controls touch sensitivity for repeated taps</string>
+    <string name="touch_resistant_title">Resistant area</string>
+    <string name="touch_resistant_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls</string>
+
+    <!-- Dirac Sound Enhancer -->
     <string name="dirac_title">Dirac Sound Enhancer</string>
-    <string name="dirac_summary">Optimize sound quality with Dirac, Hi-Fi</string>
+    <string name="dirac_summary">Optimize sound quality with Dirac and Hi-Fi</string>
+
+    <string name="dirac_enable">Enable Dirac</string>
     <string name="dirac_headset_title">Headset type</string>
-    <string name="dirac_hifi_enable_title">Enable Hi-Fi</string>
     <string name="dirac_preset_title">Sound preset</string>
 
     <string name="dirac_hifi_title">Hi-Fi</string>
+    <string name="dirac_hifi_enable_title">Enable Hi-Fi</string>
     <string name="dirac_hifi_summary">Decrease noise and Distortion and increase audio quality</string>
 
     <string name="dirac_headset_default">Default</string>
@@ -80,8 +95,8 @@
     <string name="raise_to_wake_gesture_title">Raise to wake</string>
     <string name="raise_to_wake_gesture_summary">Wake up the device instead of pulsing notification</string>
 
-    <!-- Haptic Level settings -->
-    <string name="haptic_title">Haptic Feedback</string>
+    <!-- Haptic Feedback Level -->
+    <string name="haptic_title">Haptic Feedback Level</string>
     <string name="haptic_summary">Customize vibration intensity</string>
     <string name="haptic_level_title">Level</string>
     <string name="haptic_level_summary">The amount of vibration intensity</string>
@@ -92,9 +107,10 @@
 
     <!-- LCD Features -->
     <string name="lcd_features_title">Additional Display Features</string>
-    <string name="lcd_features_summary">High Brightness Mode, CABC</string>
+    <string name="lcd_features_summary">High Brightness Mode (HBM) and Content Adaptive Backlight Control (CABC)</string>
+
     <string name="lcd_hbm_title">High Brightness Mode (HBM)</string>
-    <string name="lcd_hbm_tile_title">HBM</string>
+    <string name="lcd_hbm_tile_title">HBM Mode</string>
     <string name="lcd_cabc_title">CABC Mode</string>
     <string name="lcd_features_info">High Brightness Mode (HBM) increases the maximum brightness of the display to improve visibility under sunlight. Increases power consumption.\n\nCABC (Content Adaptive Backlight Control) adjusts display and backlight brightness based on currently shown content, to reduce power consumption without degradation.</string>
     <string name="kernel_not_supported">Kernel did not support this feature</string>

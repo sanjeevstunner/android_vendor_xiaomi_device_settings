@@ -13,7 +13,12 @@
 -->
 
 <resources>
-    <!-- Haptic Feedback Levels -->
+    <!-- Haptic Feedback Level -->
     <integer name="haptic_level_default">80</integer>
     <integer name="haptic_level_max">100</integer>
+
+    <!-- Touch Profiles -->
+    <integer name="smoothness_default">0</integer>
+    <integer name="smoothness_min">0</integer>
+    <integer name="smoothness_max">3</integer>
 </resources>
