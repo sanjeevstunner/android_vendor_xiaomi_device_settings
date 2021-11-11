@@ -100,6 +100,7 @@
 
     <!-- Haptic Feedback Level -->
     <string name="haptic_title">Haptic Feedback Level</string>
+    <string name="haptic_warning">Setting-up haptic level too high may cause permanent hardware damage, use at your own risk</string>
     <string name="haptic_summary">Customize vibration intensity</string>
     <string name="haptic_level_title">Level</string>
     <string name="haptic_level_summary">The amount of vibration intensity</string>
