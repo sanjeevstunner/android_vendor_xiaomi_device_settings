@@ -56,8 +56,9 @@ public class LcdFeaturesPreferenceFragment extends PreferenceFragment
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.lcd_features_settings);
         mHbmPref = (SwitchPreference) findPreference(KEY_HBM);
-        mHbmPref.setOnPreferenceChangeListener(this);
         mCabcPref = (ListPreference) findPreference(KEY_CABC);
+        restorePreferenceState();
+        mHbmPref.setOnPreferenceChangeListener(this);
         mCabcPref.setOnPreferenceChangeListener(this);
         validateKernelSupport();
     }
@@ -65,9 +66,7 @@ public class LcdFeaturesPreferenceFragment extends PreferenceFragment
     @Override
     public void onResume() {
         super.onResume();
-        mHbmPref.setChecked(SystemProperties.get(HBM_PROP, "0") != "0");
-        mCabcPref.setValue(SystemProperties.get(CABC_PROP, "0"));
-        mCabcPref.setSummary(mCabcPref.getEntry());
+        restorePreferenceState();
         validateKernelSupport();
     }
 
@@ -87,6 +86,14 @@ public class LcdFeaturesPreferenceFragment extends PreferenceFragment
         }
 
         return true;
+    }
+
+    private void restorePreferenceState() {
+        boolean isHbmEnabled = SystemProperties.getInt(HBM_PROP, HBM_MODE_OFF) > HBM_MODE_OFF;
+        String activeCabc = SystemProperties.get(CABC_PROP, "0");
+        mHbmPref.setChecked(isHbmEnabled);
+        mCabcPref.setValue(activeCabc);
+        mCabcPref.setSummary(mCabcPref.getEntry());
     }
 
     private void validateKernelSupport() {
