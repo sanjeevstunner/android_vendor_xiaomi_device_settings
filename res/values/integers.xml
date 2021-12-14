@@ -21,4 +21,9 @@
     <integer name="smoothness_default">0</integer>
     <integer name="smoothness_min">0</integer>
     <integer name="smoothness_max">3</integer>
+
+    <!-- Refresh Rate -->
+    <integer-array name="refresh_rate_tile_blocklist">
+        <item>0</item>
+    </integer-array>
 </resources>
