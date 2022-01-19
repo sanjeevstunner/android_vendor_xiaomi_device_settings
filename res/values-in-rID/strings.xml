@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- App Name -->
+    <string name="deviceparts_label" translatable="false">Device Parts</string>
+
+    <string name="enabled">Aktifkan</string>
+    <string name="disabled">Nonaktifkan</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_enable_title">Aktifkan Ambient Display</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Thermal Profiles</string>
+    <string name="thermal_summary">Sesuaikan Thermal Profiles per-aplikasi untuk kinerja yang optimal</string>
+    <string name="thermal_default">Bawaan</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Kamera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
+
+    <!-- Touch Control -->
+    <string name="touch_control_title">Touch Control</string>
+    <string name="touch_game_mode_title">Aktifkan Touch Control</string>
+    <string name="touch_response_title">Responsivitas</string>
+    <string name="touch_response_summary">Kontrol respon sentuhan</string>
+    <string name="touch_sensitivity_title">Sensitivitas</string>
+    <string name="touch_sensitivity_summary">Kontrol sensitivitas sentuhan untuk ketukan berulang</string>
+    <string name="touch_resistant_title">Wilayah ketahanan</string>
+    <string name="touch_resistant_summary">Kurangi sensitivitas sentuhan di dekat tepi untuk menghindari pemicu kontrol sentuhan</string>
+
+    <!-- Dirac Sound Enhancer -->
+    <string name="dirac_title">Dirac Sound Enhancer</string>
+    <string name="dirac_summary">Optimisasi kualitas suara menggunakan Dirac dan Hi-Fi</string>
+
+    <string name="dirac_enable">Aktifkan Dirac</string>
+    <string name="dirac_headset_title">Pilih tipe Headphones</string>
+    <string name="dirac_preset_title">Pilih preset suara</string>
+
+    <string name="dirac_hifi_title">Hi-Fi</string>
+    <string name="dirac_hifi_enable_title">Aktifkan Hi-Fi</string>
+    <string name="dirac_hifi_summary">Kurangi kebisingan dan distorsi &amp; tingkatkan kualitas suara</string>
+
+    <string name="dirac_headset_default">Bawaan</string>
+    <string name="dirac_headset_earbuds">Mi Earbuds</string>
+    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
+    <string name="dirac_headset_piston_1">Mi Piston 1</string>
+    <string name="dirac_headset_general">General Earbuds</string>
+    <string name="dirac_headset_general_inear">General In-Ear</string>
+    <string name="dirac_headset_piston_basic">Basic Edition</string>
+    <string name="dirac_headset_piston_2">Mi Piston 2</string>
+    <string name="dirac_headset_piston_standard">Standard Edition</string>
+    <string name="dirac_headset_headphone">Mi Headphone</string>
+    <string name="dirac_headset_piston_youth">Youth Edition</string>
+    <string name="dirac_headset_piston_color">Color Edition</string>
+    <string name="dirac_headset_in_ear">Mi In-Ear</string>
+    <string name="dirac_headset_capsule">Mi Capsule</string>
+    <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
+    <string name="dirac_headset_comfort">Mi Comfort</string>
+    <string name="dirac_headset_reduction_noise">Mi Noise Cancelling (Type-C)</string>
+    <string name="dirac_headset_cancelling">Mi Noise Cancelling (3.5mm)</string>
+    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
+    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
+    <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
+    <string name="dirac_headset_earphone">Mi Earphones</string>
+
+    <string name="dirac_preset_default">Bawaan</string>
+    <string name="dirac_preset_rock">Rock</string>
+    <string name="dirac_preset_jazz">Jazz</string>
+    <string name="dirac_preset_pop">Pop</string>
+    <string name="dirac_preset_classical">Classical</string>
+    <string name="dirac_preset_hiphop">Hip Hop</string>
+    <string name="dirac_preset_blues">Blues</string>
+    <string name="dirac_preset_electronic">Electronic</string>
+    <string name="dirac_preset_country">Country</string>
+    <string name="dirac_preset_dance">Dance</string>
+    <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Bass Booster</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear Speaker</string>
+    <string name="clear_speaker_summary">Putar audio 30 detik untuk menghapus speaker</string>
+    <string name="clear_speaker_description">Jalankan fitur ini sekali atau dua kali jika ternyata speaker Anda sedikit terhalang oleh debu. Atur volume media ke maksimum.\n\nJika speaker tersumbat parah, jalankan fitur ini 2-5 kali sambil menggoyang perangkat Anda dengan speaker menghadap ke bawah.\n\nPERINGATAN: Pastikan headphone dicabut.</string>
+
+    <!-- Raise to wake -->
+    <string name="raise_to_wake_gesture_title">Raise to wake</string>
+    <string name="raise_to_wake_gesture_summary">Bangunkan perangkat alih-alih notifikasi yang berdenyut</string>
+
+    <!-- Haptic Feedback Level -->
+    <string name="haptic_title">Haptic Feedback Level</string>
+    <string name="haptic_warning">Menyetel tingkatan haptic terlalu tinggi dapat menyebabkan kerusakan perangkat keras permanen, gunakan dengan resiko Anda sendiri</string>
+    <string name="haptic_summary">Sesuaikan intensitas getaran</string>
+    <string name="haptic_level_title">Tingkatan</string>
+    <string name="haptic_level_summary">Jumlah intensitas getaran</string>
+    <string name="haptic_level_summary_incompatible">Kernel tidak mendukung fitur ini</string>
+
+    <!-- Refresh Rate tile -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+
+    <!-- LCD Features -->
+    <string name="lcd_features_title">Additional Display Features</string>
+    <string name="lcd_features_summary">High Brightness Mode (HBM) &amp; Content Adaptive Backlight Control (CABC)</string>
+
+    <string name="lcd_hbm_title">High Brightness Mode</string>
+    <string name="lcd_hbm_tile_title">HBM</string>
+
+    <string name="lcd_cabc_title">Content Adaptive Backlight Control</string>
+    <string name="lcd_cabc_tile_title">CABC</string>
+
+    <string name="lcd_features_info">High Brightness Mode (HBM) berfungsi untuk meningkatkan kecerahan layar secara maksimum dengan tujuan untuk meningkatkan visibilitas di bawah sinar matahari. Meningkatkan konsumsi daya.\n\nContent Adaptive Backlight Control (CABC) berfungsi untuk menyesuaikan kecerahan layar dan lampu latar berdasarkan konten yang ditampilkan saat ini, untuk mengurangi konsumsi daya tanpa degradasi.</string>
+    <string name="kernel_not_supported">Kernel tidak mendukung fitur ini</string>
+</resources>
