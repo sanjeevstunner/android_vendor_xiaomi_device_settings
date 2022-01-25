@@ -1,0 +1,2 @@
+# Haptic
+/sys/module/qti_haptics/parameters/vmax_mv_override                       u:object_r:sysfs_vibrator:s0
