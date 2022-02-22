@@ -207,7 +207,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
                 return R.drawable.ic_refresh_30;
             case RefreshUtils.STATE_MODERATE:
                 return R.drawable.ic_refresh_50;
-            case RefreshUtils.STATE_STANDARD:
+            case RefreshUtils.STATE_MEDIUM:
                 return R.drawable.ic_refresh_60;
             case RefreshUtils.STATE_HIGH:
                 return R.drawable.ic_refresh_90;
@@ -246,7 +246,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
                 R.string.refresh_default,
                 R.string.refresh_low,
                 R.string.refresh_moderate,
-                R.string.refresh_standard,
+                R.string.refresh_medium,
                 R.string.refresh_high,
                 R.string.refresh_extreme
         };
@@ -382,7 +382,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
                 case RefreshUtils.STATE_MODERATE:
                     mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_MODERATE);
                     break;
-                case RefreshUtils.STATE_STANDARD:
+                case RefreshUtils.STATE_MEDIUM:
                     mRefreshUtils.writePackage(entry.info.packageName, RefreshUtils.STATE_STANDARD);
                     break;
                 case RefreshUtils.STATE_HIGH:
