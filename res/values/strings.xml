@@ -102,14 +102,6 @@
     <string name="raise_to_wake_gesture_title">Raise to wake</string>
     <string name="raise_to_wake_gesture_summary">Wake up the device instead of pulsing notification</string>
 
-    <!-- Haptic Feedback Level -->
-    <string name="haptic_title">Haptic Feedback Level</string>
-    <string name="haptic_warning">Setting-up haptic level too high may cause permanent hardware damage, use at your own risk</string>
-    <string name="haptic_summary">Customize vibration intensity</string>
-    <string name="haptic_level_title">Level</string>
-    <string name="haptic_level_summary">The amount of vibration intensity</string>
-    <string name="haptic_level_summary_incompatible">Kernel did not support this feature</string>
-
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Refresh Rate</string>
 
