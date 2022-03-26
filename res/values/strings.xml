@@ -18,9 +18,6 @@
     <!-- App Name -->
     <string name="deviceparts_label" translatable="false">Device Parts</string>
 
-    <string name="enabled">Enabled</string>
-    <string name="disabled">Disabled</string>
-
     <!-- Ambient Display -->
     <string name="ambient_display_enable_title">Use Ambient Display</string>
 
@@ -105,16 +102,4 @@
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Refresh Rate</string>
 
-    <!-- LCD Features -->
-    <string name="lcd_features_title">Additional Display Features</string>
-    <string name="lcd_features_summary">High Brightness Mode (HBM) &amp; Content Adaptive Backlight Control (CABC)</string>
-
-    <string name="lcd_hbm_title">High Brightness Mode</string>
-    <string name="lcd_hbm_tile_title">HBM</string>
-
-    <string name="lcd_cabc_title">Content Adaptive Backlight Control</string>
-    <string name="lcd_cabc_tile_title">CABC</string>
-
-    <string name="lcd_features_info">High Brightness Mode (HBM) increases the maximum brightness of the display to improve visibility under sunlight. Increases power consumption.\n\nContent Adaptive Backlight Control (CABC) adjusts display and backlight brightness based on currently shown content, to reduce power consumption without degradation.</string>
-    <string name="kernel_not_supported">Kernel did not support this feature</string>
 </resources>
