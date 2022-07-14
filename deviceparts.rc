@@ -13,6 +13,13 @@
 # limitations under the License.
 #
 
+on init
+    # Xiaomi Thermal Profiles permissions
+    chmod 0664 /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    chmod 0666 /sys/class/thermal/thermal_message/temp_state
+    chown system system /sys/class/thermal/thermal_message/temp_state
+
 on boot
     # FPS Info permissions
     chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
